@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="n" type="image/x-icon">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Portfolio</title>
     <style>
@@ -26,7 +26,7 @@
         .shadow-lee {
             box-shadow: 0 -8px 10px rgba(80, 80, 80, 0.4);
         }
-        
+
     </style>
 </head>
 <body class="bg-gray-900 text-white">
@@ -35,20 +35,12 @@
         <div class="text-5xl font-bold text-yellow-200">S</div>
         <div class="flex items-center justify-between">
             <a class="px-3 text-yellow-200" href="#home">Home</a>
-            <button class="lg:hidden px-3 text-yellow-200">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                </svg>
-            </button>
-            <div class="hidden lg:flex">
-                <a class="px-3 hover:text-yellow-200" href="#about">About</a>
-                <a class="px-3 hover:text-yellow-200" href="#portfolio">Portfolio</a>
-                <a class="px-3 hover:text-yellow-200" href="#skills">Blog</a>
-                <a class="px-3 hover:text-yellow-200" href="#testimonials">Testimonial</a>
-                <a class="px-3 hover:text-yellow-200" href="#contact">Contact</a>
-            </div>
+            <a class="px-3 hover:text-yellow-200" href="#about">About</a>
+            <a class="px-3 hover:text-yellow-200" href="#portfolio">Portfolio</a>
+            <a class="px-3 hover:text-yellow-200" href="#skills">Blog</a>
+            <a class="px-3 hover:text-yellow-200" href="#testimonials">Testimonial</a>
+            <a class="px-3 hover:text-yellow-200" href="#contact">Contact</a>
         </div>
-        
     </nav>
 
     <section id="home" class="hero relative">
@@ -67,7 +59,7 @@
     </section>
 
 
-    
+
     <section id="about" class="pt-20 container mx-auto pb-32">
         <div class="pt-20 grid lg:grid-cols-2 grid-cols-1 gap-3">
             <div class="px-5 flex flex-col justify-center">
@@ -82,14 +74,14 @@
             </div>
         </div>
     </section>
-    
+
 
 
     <section id="portfolio" class="container mx-auto pb-32 px-10">
         <h2 class="text-4xl tracking-wider pb-10 text-center font-semibold">Portfolio</h2>
         <div class="grid lg:grid-cols-3 lg:grid-rows-2 grid-cols-1 grid-rows-1 lg:gap-8 gap-5">
-    
-        
+
+
             <div class="h-full relative group">
                 <a href="https://dee-dee-adejokemi.vercel.app/">
                     <img class="max-h-full max-w-full object-contain" src="img/hotel.png" alt="hotel">
@@ -178,7 +170,7 @@
                             <p class="text-gray-200">What is the Importance Of Cybersecurity.</p>
                             <a href="https://medium.com/@omitogunsherifat75/importance-of-cybersecurity-in-todays-world-457f485e2bd1" class="text-yellow-300 inline-block mt-4">Read more</a>
                         </div>
-                        
+
                         <div class="bg-gray-900 shadow-md rounded-lg p-4">
                             <img class="w-full h-48 object-cover rounded-lg mb-4" src="img/appreciation.jpg" alt="Blog 2">
                             <h3 class="text-xl text-white-500 font-semibold mb-2">Entrance Into TIIDElab</h3>
@@ -186,7 +178,7 @@
                             <p class="text-gray-200">Shoe Appreciation Post, Gratitude to the Sponsors.</p>
                             <a href="https://www.linkedin.com/posts/omitogun-sherifat-ajoke_shoe-appreciation-post-im-absolutely-activity-7079498193998090240-4mzS?utm_source=share&utm_medium=member_android" class="text-yellow-300 inline-block mt-4">Read more</a>
                         </div>
-                        
+
                         <div class="bg-gray-900 shadow-md rounded-lg p-4">
                             <img class="w-full h-48 object-cover rounded-lg mb-4" src="img/video.jpg" alt="Blog 2">
                             <h3 class="text-xl text-white-500 font-semibold mb-2">Embracing Virtual Interviews</h3>
@@ -196,7 +188,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             <div class="pt-36">
                 <h2 class="text-3xl font-semibold mb-6 tracking-wide text-center">Skills</h2>
                 <div class="space-y-4">
@@ -290,7 +282,7 @@
 
         </div>
     </div>
-              
+
     </section>
 
 
@@ -307,7 +299,7 @@
         </div>
     </section>
 
-    
+
     <section id="contact" class="bg-gray-800">
         <div class="py-28">
             <h2 class="text-4xl pb-10 lg:text-center mx-32 tracking-wide font-semibold">Contact</h2>
@@ -318,13 +310,13 @@
                         <h2 class="text-white pb-1">Call On</h2>
                         <p class="text-gray-400 pb-16">+(234)901-1814-858</p>
                     </div>
-                    
+
                     <div class="flex flex-col items-center">
                         <i class="fas fa-envelope text-6xl pb-5 text-gray-300"></i>
                         <h2 class="text-white pb-1">Email at</h2>
                         <p class="text-gray-400 pb-16">omitogunsherifat75@gmail.com</p>
                     </div>
-                    
+
                     <div class="flex flex-col items-center">
                         <i class="fas fa-map-marker-alt text-6xl pb-5 text-gray-200"></i>
                         <h2 class="text-white pb-1">Location</h2>
@@ -332,7 +324,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <form action="/contact" method="POST" class="lg:mx-60 mx-20">
                 <div class="grid lg:grid-cols-2 gap-4">
                     <input type="text" id="name" name="name" required class="w-40% h-14 px-4 py-2 bg-gray-900 rounded-lg border border-none focus:outline-none focus:border-yellow-300" placeholder="Your Name" style="box-shadow: 0 -8px 10px rgba(80, 80, 80, 0.4);">
@@ -345,16 +337,16 @@
             </form>
         </div>
     </section>
-    
-    
+
+
     <footer class="bg-gray-900 text-center py-6">
         <p class="text-gray-200">Copyright&copy; 2023 Omitogun Sherifat. All rights reserved.</p>
     </footer>
-    
+
 
 <script>
     $(document).ready(function() {
-      
+
       $('a[href^="#"]').on('click', function(event) {
         event.preventDefault();
         var target = $(this.getAttribute('href'));
@@ -366,6 +358,6 @@
       });
     });
 </script>
-  
+
 </body>
 </html>
