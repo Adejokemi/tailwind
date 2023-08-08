@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="n" type="image/x-icon">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Portfolio</title>
     <style>
@@ -35,12 +34,20 @@
         <div class="text-5xl font-bold text-yellow-200">S</div>
         <div class="flex items-center justify-between">
             <a class="px-3 text-yellow-200" href="#home">Home</a>
-            <a class="px-3 hover:text-yellow-200" href="#about">About</a>
-            <a class="px-3 hover:text-yellow-200" href="#portfolio">Portfolio</a>
-            <a class="px-3 hover:text-yellow-200" href="#skills">Blog</a>
-            <a class="px-3 hover:text-yellow-200" href="#testimonials">Testimonial</a>
-            <a class="px-3 hover:text-yellow-200" href="#contact">Contact</a>
+            <button class="lg:hidden px-3 text-yellow-200">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+            <div class="hidden lg:flex">
+                <a class="px-3 hover:text-yellow-200" href="#about">About</a>
+                <a class="px-3 hover:text-yellow-200" href="#portfolio">Portfolio</a>
+                <a class="px-3 hover:text-yellow-200" href="#skills">Blog</a>
+                <a class="px-3 hover:text-yellow-200" href="#testimonials">Testimonial</a>
+                <a class="px-3 hover:text-yellow-200" href="#contact">Contact</a>
+            </div>
         </div>
+        
     </nav>
 
     <section id="home" class="hero relative">
